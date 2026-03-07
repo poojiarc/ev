@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin, MessageCircle, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin,Send } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import AnimatedSection from "@/components/AnimatedSection";
 
 const Contact = () => {
@@ -113,7 +114,7 @@ const Contact = () => {
                     <Linkedin size={22} />
                   </a>
                   <a href="https://chat.whatsapp.com/Gxay3UKd43FDflXmVduFjn?mode=gi_t" target="_blank" rel="noopener noreferrer" className="p-3 rounded-xl glass-card text-ev-green hover:bg-ev-green hover:text-primary-foreground transition-all">
-                    <MessageCircle size={22} />
+                    <FaWhatsapp size={22} />
                   </a>
                 </div>
               </div>
