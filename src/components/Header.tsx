@@ -19,8 +19,12 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-md border-b border-border/30">
       <div className="section-container flex items-center justify-between h-16 lg:h-20">
-        <Link to="/" className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-3">
           <img src={logo} alt="EVHub Logo" className="h-10 lg:h-14 w-auto rounded-md" />
+          <span className="text-xl lg:text-2xl font-heading font-bold tracking-tight">
+            <span className="text-primary">EV</span>
+            <span className="text-secondary-foreground">Hub</span>
+          </span>
         </Link>
 
         {/* Desktop Nav */}
