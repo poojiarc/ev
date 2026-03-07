@@ -17,7 +17,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="space-y-4">
-            <img src={logo} alt="EVHub" className="h-14 w-auto rounded-md" />
+            <div className="flex items-center gap-3">
+              <img src={logo} alt="EVHub" className="h-14 w-auto rounded-md" />
+              <span className="text-2xl font-heading font-bold tracking-tight">
+                <span className="text-primary">EV</span>
+                <span className="text-secondary-foreground">Hub</span>
+              </span>
+            </div>
             <p className="text-secondary-foreground/70 text-sm leading-relaxed">
               Powering the future with EV charging infrastructure and solar energy solutions.
             </p>
