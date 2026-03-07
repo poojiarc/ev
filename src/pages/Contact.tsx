@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin,Send } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Facebook,Send } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import AnimatedSection from "@/components/AnimatedSection";
 
@@ -58,13 +58,13 @@ const Contact = () => {
                       <p className="text-muted-foreground group-hover:text-primary transition-colors">9390905955</p>
                     </div>
                   </a>
-                  <a href="mailto:evhub45@gmqil.com" className="flex items-start gap-4 group">
+                  <a href="mailto: evhub45@gmail.com" className="flex items-start gap-4 group">
                     <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center shrink-0">
                       <Mail size={20} className="text-primary-foreground" />
                     </div>
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <p className="text-muted-foreground group-hover:text-primary transition-colors">evhub45@gmqil.com</p>
+                      <p className="text-muted-foreground group-hover:text-primary transition-colors"> evhub45@gmail.com</p>
                     </div>
                   </a>
                   <div className="flex items-start gap-4">
@@ -106,12 +106,6 @@ const Contact = () => {
                 <div className="flex gap-3">
                   <a href="https://www.facebook.com/share/1DNpEdq7a4/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-xl glass-card text-primary hover:bg-primary hover:text-primary-foreground transition-all">
                     <Facebook size={22} />
-                  </a>
-                  <a href="#" className="p-3 rounded-xl glass-card text-primary hover:bg-primary hover:text-primary-foreground transition-all">
-                    <Instagram size={22} />
-                  </a>
-                  <a href="#" className="p-3 rounded-xl glass-card text-primary hover:bg-primary hover:text-primary-foreground transition-all">
-                    <Linkedin size={22} />
                   </a>
                   <a href="https://chat.whatsapp.com/Gxay3UKd43FDflXmVduFjn?mode=gi_t" target="_blank" rel="noopener noreferrer" className="p-3 rounded-xl glass-card text-ev-green hover:bg-ev-green hover:text-primary-foreground transition-all">
                     <FaWhatsapp size={22} />

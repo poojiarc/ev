@@ -188,11 +188,11 @@ const Index = () => {
                 </div>
                 9390905955
               </a>
-              <a href="mailto:evhub45@gmqil.com" className="flex items-center gap-3 text-lg">
+              <a href="mailto: evhub45@gmail.com" className="flex items-center gap-3 text-lg">
                 <div className="w-12 h-12 rounded-xl gradient-bg-amber flex items-center justify-center">
                   <Mail size={20} className="text-accent-foreground" />
                 </div>
-                evhub45@gmqil.com
+                 evhub45@gmail.com
               </a>
             </div>
           </AnimatedSection>

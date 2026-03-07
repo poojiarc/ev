@@ -31,12 +31,6 @@ const Footer = () => {
               <a href="https://www.facebook.com/share/1DNpEdq7a4/" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all">
-                <Instagram size={18} />
-              </a>
-              <a href="#" className="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all">
-                <Linkedin size={18} />
-              </a>
             </div>
           </div>
 
@@ -65,7 +59,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-sm text-secondary-foreground/70">
                 <Mail size={14} className="mt-1 shrink-0 text-primary" />
-                evhub45@gmqil.com
+                evhub45@gmail.com
               </li>
               <li className="flex items-start gap-2 text-sm text-secondary-foreground/70">
                 <MapPin size={14} className="mt-1 shrink-0 text-primary" />
